@@ -1,3 +1,3 @@
 #!/bin/sh
-node ../myhelloworld.js    
-#start myhelloworld 
+
+service myhelloworld restart

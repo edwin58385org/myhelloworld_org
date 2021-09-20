@@ -3,6 +3,10 @@ os: linux
 files:
   - source: myhelloworld.js
     destination: /usr/local/myhelloworld/
+  - source: myhelloworld.js
+    destination: /home/ubuntu/myhelloworld.js
+  - source: myhelloworld.service
+    destination: /lib/systemd/system/myhelloworld.service
   - source: scripts/myhelloworld.conf
     destination: /etc/init/
 hooks: 

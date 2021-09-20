@@ -1,0 +1,13 @@
+[Unit]
+Description=myhelloworld
+
+[Service]
+Type=simple
+Environment="NODE_ENV=production"
+Environment="PORT=3000"
+ExecStart=/bin/sh -ec "exec nodejs /home/ubuntu/myhelloworld.js"
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=myhelloworld.target
