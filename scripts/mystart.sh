@@ -1,3 +1,3 @@
 #!/bin/sh
-    
-start myhelloworld 
+node ../myhelloworld.js    
+#start myhelloworld 
