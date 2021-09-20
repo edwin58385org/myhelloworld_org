@@ -4,9 +4,9 @@ files:
   - source: myhelloworld.js
     destination: /usr/local/myhelloworld/
   - source: myhelloworld.js
-    destination: /home/ubuntu/myhelloworld.js
+    destination: /home/ubuntu/
   - source: myhelloworld.service
-    destination: /lib/systemd/system/myhelloworld.service
+    destination: /lib/systemd/system/
   - source: scripts/myhelloworld.conf
     destination: /etc/init/
 hooks: 
